@@ -1,0 +1,71 @@
+cursor = '_'
+line-height = 2.0
+working-dir = "C:\\Users\\Narender"
+blinking-cursor = true
+hide-cursor-when-typing = true
+theme = "dracula"
+padding-x = 10
+padding-y = 10
+
+[bindings]
+keys = [
+  { key = "r", with = "control", text = "Rio is awesome!" },
+  { key = "=", with = "alt", action = "SplitHorizontally" },
+  { key = "-", with = "alt", action = "SplitVertically" },
+]
+
+[developer]
+log-level = "OFF"
+
+[scroll]
+multiplier = 3.0
+divider = 1.0
+
+[renderer]
+performance = "High"
+backend = "Automatic"
+disable-unfocused-render = false
+
+[navigation]
+mode = "BottomTab"
+clickable = true
+use-current-path = false
+color-automation = []
+
+[colors]
+tabs = "#000010"
+
+[shell]
+program = "C:\\Users\\Narender\\AppData\\Local\\Programs\\nu\\bin\\nu.exe"
+args = []
+
+[window]
+width = 1000
+height = 600
+mode = "Windowed"
+opacity = 0.1
+blur = true
+decorations = "Transparent"
+
+[fonts]
+size = 18
+
+[fonts.regular]
+family = "CaskaydiaMono Nerd Font"
+style = "normal"
+weight = 400
+
+[fonts.bold]
+family = "CaskaydiaMono Nerd Font"
+style = "normal"
+weight = 800
+
+[fonts.italic]
+family = "CaskaydiaMono Nerd Font"
+style = "italic"
+weight = 400
+
+[fonts.bold-italic]
+family = "CaskaydiaMono Nerd Font"
+style = "italic"
+weight = 800
